@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c397b96-464a-4070-b7b3-9fc561ac3c9b" name="Changes" comment="created a DAO class for each Entity">
+    <list default="true" id="6c397b96-464a-4070-b7b3-9fc561ac3c9b" name="Changes" comment="initialized all DAO instances and added find-by-name method to CityDAO.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/App.java" afterDir="false" />
     </list>
@@ -73,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707077739891</updated>
       <workItem from="1707077740904" duration="17501000" />
-      <workItem from="1707323614957" duration="4827000" />
+      <workItem from="1707323614957" duration="5858000" />
     </task>
     <task id="LOCAL-00001" summary="added database entities">
       <option name="closed" value="true" />
@@ -107,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707328029667</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initialized all DAO instances and added find-by-name method to CityDAO.java">
+      <option name="closed" value="true" />
+      <created>1707329591994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707329591994</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +126,7 @@
     <MESSAGE value="added MySessionFactory.java util for easier accessible and customized SessionFactory client" />
     <MESSAGE value="added generic GenericDAO.java abstract class to standart future DAO classes template" />
     <MESSAGE value="created a DAO class for each Entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a DAO class for each Entity" />
+    <MESSAGE value="initialized all DAO instances and added find-by-name method to CityDAO.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialized all DAO instances and added find-by-name method to CityDAO.java" />
   </component>
 </project>
