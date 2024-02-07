@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c397b96-464a-4070-b7b3-9fc561ac3c9b" name="Changes" comment="added MySessionFactory.java util for easier accessible and customized SessionFactory client">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/GenericDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5437e6c9-23a7-49a0-8a8a-a7b26068b02e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5437e6c9-23a7-49a0-8a8a-a7b26068b02e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6c397b96-464a-4070-b7b3-9fc561ac3c9b" name="Changes" comment="added generic GenericDAO.java abstract class to standart future DAO classes template" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707077739891</updated>
       <workItem from="1707077740904" duration="17501000" />
-      <workItem from="1707323614957" duration="2940000" />
+      <workItem from="1707323614957" duration="3265000" />
     </task>
     <task id="LOCAL-00001" summary="added database entities">
       <option name="closed" value="true" />
@@ -93,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707323801333</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added generic GenericDAO.java abstract class to standart future DAO classes template">
+      <option name="closed" value="true" />
+      <created>1707327299719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707327299719</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added database entities" />
     <MESSAGE value="added MySessionFactory.java util for easier accessible and customized SessionFactory client" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MySessionFactory.java util for easier accessible and customized SessionFactory client" />
+    <MESSAGE value="added generic GenericDAO.java abstract class to standart future DAO classes template" />
+    <option name="LAST_COMMIT_MESSAGE" value="added generic GenericDAO.java abstract class to standart future DAO classes template" />
   </component>
 </project>
