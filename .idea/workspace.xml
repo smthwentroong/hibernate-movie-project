@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c397b96-464a-4070-b7b3-9fc561ac3c9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Feature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/FilmText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Rental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="6c397b96-464a-4070-b7b3-9fc561ac3c9b" name="Changes" comment="added database entities">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/utils/MySessionFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spy.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spy.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +70,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707077739891</updated>
-      <workItem from="1707077740904" duration="15870000" />
+      <workItem from="1707077740904" duration="17501000" />
     </task>
+    <task id="LOCAL-00001" summary="added database entities">
+      <option name="closed" value="true" />
+      <created>1707318915395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707318915395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added database entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="added database entities" />
   </component>
 </project>
