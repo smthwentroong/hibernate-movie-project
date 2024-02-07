@@ -4,17 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c397b96-464a-4070-b7b3-9fc561ac3c9b" name="Changes" comment="" />
+    <list default="true" id="6c397b96-464a-4070-b7b3-9fc561ac3c9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Feature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/FilmText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Rental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spy.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spy.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2buvNds4PKgNFnf1NhMV8HwuogI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,12 +56,30 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-995e55e7" />
+        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-68fdadd5" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707077739891</updated>
+      <workItem from="1707077740904" duration="15870000" />
     </task>
     <servers />
   </component>
