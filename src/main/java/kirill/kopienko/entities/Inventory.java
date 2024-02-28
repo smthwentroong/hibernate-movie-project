@@ -1,7 +1,6 @@
 package kirill.kopienko.entities;
 
 import jakarta.persistence.*;
-import jdk.vm.ci.meta.Local;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;

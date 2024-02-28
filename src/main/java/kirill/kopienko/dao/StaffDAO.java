@@ -1,9 +1,11 @@
 package kirill.kopienko.dao;
 
 import kirill.kopienko.entities.Staff;
+import org.hibernate.SessionFactory;
+
 
 public class StaffDAO extends GenericDAO<Staff> {
-    public StaffDAO(Class<Staff> classToSet) {
-        super(classToSet);
+    public StaffDAO(SessionFactory sessionFactory) {
+        super(Staff.class, sessionFactory);
     }
 }

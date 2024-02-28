@@ -1,9 +1,10 @@
 package kirill.kopienko.dao;
 
 import kirill.kopienko.entities.Language;
+import org.hibernate.SessionFactory;
 
 public class LanguageDAO extends GenericDAO<Language> {
-    public LanguageDAO(Class<Language> classToSet) {
-        super(classToSet);
+    public LanguageDAO(SessionFactory sessionFactory) {
+        super(Language.class, sessionFactory);
     }
 }

@@ -1,9 +1,10 @@
 package kirill.kopienko.dao;
 
 import kirill.kopienko.entities.Rental;
+import org.hibernate.SessionFactory;
 
 public class RentalDAO extends GenericDAO<Rental> {
-    public RentalDAO(Class<Rental> classToSet) {
-        super(classToSet);
+    public RentalDAO(SessionFactory sessionFactory) {
+        super(Rental.class, sessionFactory);
     }
 }

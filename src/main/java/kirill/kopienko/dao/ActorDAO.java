@@ -1,9 +1,10 @@
 package kirill.kopienko.dao;
 
 import kirill.kopienko.entities.Actor;
+import org.hibernate.SessionFactory;
 
 public class ActorDAO extends GenericDAO<Actor> {
-    public ActorDAO(Class<Actor> classToSet) {
-        super(classToSet);
+    public ActorDAO(SessionFactory sessionFactory) {
+        super(Actor.class, sessionFactory);
     }
 }

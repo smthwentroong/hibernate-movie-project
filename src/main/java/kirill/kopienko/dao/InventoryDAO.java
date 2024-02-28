@@ -1,9 +1,10 @@
 package kirill.kopienko.dao;
 
 import kirill.kopienko.entities.Inventory;
+import org.hibernate.SessionFactory;
 
 public class InventoryDAO extends GenericDAO<Inventory> {
-    public InventoryDAO(Class<Inventory> classToSet) {
-        super(classToSet);
+    public InventoryDAO(SessionFactory sessionFactory) {
+        super(Inventory.class, sessionFactory);
     }
 }

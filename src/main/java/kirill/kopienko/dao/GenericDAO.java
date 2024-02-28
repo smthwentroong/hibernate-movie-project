@@ -1,54 +1,55 @@
 package kirill.kopienko.dao;
 
-import kirill.kopienko.utils.MySessionFactory;
+import jakarta.persistence.Query;
 import org.hibernate.Session;
-import org.hibernate.query.Query;
+import org.hibernate.SessionFactory;
 
 import javax.swing.text.html.parser.Entity;
 import java.util.List;
 
 public abstract class GenericDAO<T> {
     private final Class<T> clazz;
+    private SessionFactory sessionFactory;
 
-    public GenericDAO(final Class<T> classToSet) {
-        this.clazz = classToSet;
+    public GenericDAO(final Class<T> clazzToSet, SessionFactory sessionFactory)   {
+        this.clazz = clazzToSet;
+        this.sessionFactory = sessionFactory;
     }
 
-    public T getById(final int id) {
+    public T getById(final long id) {
         return (T) getCurrentSession().get(clazz, id);
     }
 
     public List<T> getItems(int offset, int count) {
-        Query query = getCurrentSession().createQuery("from " + clazz.getName(), clazz);
+        Query query = getCurrentSession().createQuery("from " + clazz.getName());
         query.setFirstResult(offset);
         query.setMaxResults(count);
-        return query.list();
+        return query.getResultList();
     }
 
-    public List<T> findAll(final T entity) {
-        return getCurrentSession().createQuery("from " + clazz.getName(), clazz).list();
+    public List<T> findAll() {
+        return getCurrentSession().createQuery("from " + clazz.getName()).list();
     }
 
-    public T save(final T entity) {
+    public T create(final T entity) {
         getCurrentSession().saveOrUpdate(entity);
         return entity;
     }
 
     public T update(final T entity) {
-        getCurrentSession().saveOrUpdate(entity);
-        return entity;
+        return (T) getCurrentSession().merge(entity);
     }
 
-    public void delete(final T entity){
+    public void delete(final T entity) {
         getCurrentSession().delete(entity);
     }
 
-    public void deleteById(final int entityId) {
+    public void deleteById(final long entityId) {
         final T entity = getById(entityId);
-        getCurrentSession().delete(entity);
+        delete(entity);
     }
 
-    public Session getCurrentSession() {
-        return MySessionFactory.getSessionFactory().getCurrentSession();
+    protected Session getCurrentSession() {
+        return sessionFactory.getCurrentSession();
     }
 }

@@ -4,10 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c397b96-464a-4070-b7b3-9fc561ac3c9b" name="Changes" comment="void createCustomer() -&gt; Customer createCustomer() due to debugging reasons, added an example functionality to createCustomer method which creates a new line in customers table and all other dependent tables">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/DAORepo.java" afterDir="false" />
+    <list default="true" id="6c397b96-464a-4070-b7b3-9fc561ac3c9b" name="Changes" comment="added DAORepo for all DAO classes">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/ActorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/ActorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/AddressDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/AddressDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/CategoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/CityDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/CityDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/CountryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/CountryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/DAORepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/DAORepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/FilmDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/FilmDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/FilmTextDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/FilmTextDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/GenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/InventoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/InventoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/LanguageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/LanguageDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/PaymentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/PaymentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/RentalDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/RentalDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/StaffDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/StaffDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/StoreDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/dao/StoreDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kirill/kopienko/entities/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kirill/kopienko/utils/MySessionFactory.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +48,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2buvNds4PKgNFnf1NhMV8HwuogI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,6 +61,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -57,6 +81,26 @@
     ]
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kirill.kopienko.App" />
+      <module name="hibernate-movie-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kirill.kopienko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,7 +118,17 @@
       <option name="presentableId" value="Default" />
       <updated>1707077739891</updated>
       <workItem from="1707077740904" duration="17501000" />
-      <workItem from="1707323614957" duration="9108000" />
+      <workItem from="1707323614957" duration="13864000" />
+      <workItem from="1707401476730" duration="66000" />
+      <workItem from="1707401627447" duration="17000" />
+      <workItem from="1707401657987" duration="1729000" />
+      <workItem from="1707403406868" duration="27000" />
+      <workItem from="1707403453086" duration="72000" />
+      <workItem from="1707403573554" duration="152000" />
+      <workItem from="1707403746027" duration="88000" />
+      <workItem from="1707403849635" duration="78000" />
+      <workItem from="1707403991432" duration="92000" />
+      <workItem from="1707404105182" duration="1433000" />
     </task>
     <task id="LOCAL-00001" summary="added database entities">
       <option name="closed" value="true" />
@@ -124,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707330372964</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added DAORepo for all DAO classes">
+      <option name="closed" value="true" />
+      <created>1707394102029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707394102029</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +199,7 @@
     <MESSAGE value="created a DAO class for each Entity" />
     <MESSAGE value="initialized all DAO instances and added find-by-name method to CityDAO.java" />
     <MESSAGE value="void createCustomer() -&gt; Customer createCustomer() due to debugging reasons, added an example functionality to createCustomer method which creates a new line in customers table and all other dependent tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="void createCustomer() -&gt; Customer createCustomer() due to debugging reasons, added an example functionality to createCustomer method which creates a new line in customers table and all other dependent tables" />
+    <MESSAGE value="added DAORepo for all DAO classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added DAORepo for all DAO classes" />
   </component>
 </project>

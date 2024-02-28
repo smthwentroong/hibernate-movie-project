@@ -1,6 +1,5 @@
 package kirill.kopienko.entities;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import jakarta.persistence.*;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.UpdateTimestamp;

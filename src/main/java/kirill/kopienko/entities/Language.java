@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 public class Language {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "language_id")
     private Byte id;
 
     @Column(name = "name", length = 20, columnDefinition = "char")

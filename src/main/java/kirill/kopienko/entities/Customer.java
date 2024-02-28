@@ -1,6 +1,5 @@
 package kirill.kopienko.entities;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.Type;
@@ -29,7 +28,7 @@ public class Customer {
     @JoinColumn(name = "address_id")
     private Address address;
     @Column(name = "active", columnDefinition = "BIT")
-    @Type(type = "org.hibernate.NumericBooleanType")
+    @Type(type = "org.hibernate.type.NumericBooleanType")
     private Boolean isActive;
 
     @Column(name = "create_date")
